@@ -16,27 +16,38 @@
         app:layout_constraintTop_toTopOf="parent"
         >
         <TextView
+            android:id="@+id/tv_content"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
             android:layout_alignParentTop="true"
-            android:text="Hello World!"
+            android:text=""
             />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btn_next"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="5dp"
-            android:layout_marginBottom="15dp"
-            android:layout_above="@id/button2"
+            android:layout_marginBottom="5dp"
+            android:layout_above="@id/btn_hint"
             android:text="Next"
             />
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btn_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn_finish"
+            android:layout_marginBottom="5dp"
+            android:text="Hint"
+            />
+        <Button
+            android:id="@+id/btn_finish"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:text="Hint"
+            android:layout_marginBottom="5dp"
+            android:text="Finish"
             />
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Eigo Interviewer</string>
+    <string-array name="questions">
+        <item>What did you do today?</item>
+        <item>What did you do yesterday?</item>
+        <item>What did you do last weekend?</item>
+        <item>What are your plans for the weekend?</item>
+        <item>Where do you see yourself in 5 years?</item>
+        <item>What do you plan to do after you retire?</item>
+        <item>Tell me about your biggest pet peeves.</item>
+        <item>How do you like to spend your free time?</item>
+        <item>What do you like and/or dislike about living in Japan?</item>
+        <item>What would you do if you won the lottery?</item>
+    </string-array>
 </resources>

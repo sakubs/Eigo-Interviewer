@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
+
 public class MainActivity extends AppCompatActivity {
 
     private Button mNextButton;
@@ -25,9 +26,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mQuestions = new ArrayList<String>(
-                Arrays.asList(getResources().getStringArray(R.array.questions)
-                )
-        );
+                Arrays.asList(getResources().getStringArray(R.array.questions)));
 
         mNextButton = (Button) findViewById(R.id.btn_next);
         mHintButton = (Button) findViewById(R.id.btn_hint);
